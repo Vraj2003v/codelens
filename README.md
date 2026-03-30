@@ -88,12 +88,3 @@ Returns 20 example code snippets with intentional bugs.
 ### GET /api/health
 Returns API status and model info.
 
-## Deployment (Render + Vercel)
-
-**Backend on Render:**
-- Build: `pip install -r requirements.txt`
-- Start: `gunicorn app:app`
-- Env var: `GROQ_API_KEY=gsk_...`
-
-**Frontend on Vercel:**
-- Update `frontend/src/utils/api.js` → set `BASE` to your Render URL
